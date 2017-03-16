@@ -1,0 +1,325 @@
+@import "less/bootstrap.less";
+
+.menu{
+		font-family: "Ubuntu";
+		font-size:16px;
+        ul{
+            padding-top: 5px;
+            padding-right: 10px;
+        }
+}
+
+.navbar-inverse .navbar-nav>li>a{
+            color: #ffffff;
+}
+.dropdown-submenu {
+        position: relative;
+        & > .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -6px;
+            margin-left: -1px;
+            -webkit-border-radius: 0 6px 6px 6px;
+            -moz-border-radius: 0 6px 6px;
+            border-radius: 0 6px 6px 6px;
+        }
+        & > a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 5px 0 5px 5px;
+            border-left-color: #ccc;
+            margin-top: 5px;
+            margin-right: -10px;
+        }
+        .pull-left {
+            float: none;
+            & > .dropdown-menu {
+                left: -100%;
+                margin-left: 10px;
+                -webkit-border-radius: 6px 0 6px 6px;
+                -moz-border-radius: 6px 0 6px 6px;
+                border-radius: 6px 0 6px 6px;
+            }
+        }
+    }
+    .dropdown-submenu:hover {
+        & > .dropdown-menu {
+            display: block;
+        }
+        & > a:after {
+            border-left-color: #fff;
+        }
+    }
+    .navbar-brand {
+    float: left;
+    padding: 20px 40px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 60px;
+}
+
+.buscar{
+    padding-top: 5px;
+    margin-left: 120px;
+    margin-top: 14px;
+    margin-right: 20px;
+  
+}
+
+.login{
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 40px;
+padding-top:5px;
+padding-bottom: 5px;
+padding-right: 20px;
+padding-left: 20px;
+border-radius: 5px;
+border:1px;
+background-color: rgba(6, 207, 136, 0.8); 
+}
+.webmail{
+   margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 20px;
+padding-top:5px;
+padding-bottom: 5px;
+padding-right: 20px;
+padding-left: 20px;
+border-radius: 5px;
+border:1px;
+background-color: rgba(6, 207, 136, 0.8);  
+}
+.logo{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+/*-------- ICONOS-----------------------*/
+
+[class^="icon-"] {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(5, 191, 191, 0.89);
+    font-family: 'icomoon' !important;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
+}
+[class*="icon-"] {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        color: rgba(5, 191, 191, 0.89);
+        font-family: 'icomoon' !important;
+        font-size: 30px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1;
+        speak: none;
+        text-transform: none;
+}
+
+.myfooter{
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(191,191,191,0.96) 46%, rgba(76,82,76,0.91) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(46%, rgba(191,191,191,0.96)), color-stop(100%, rgba(76,82,76,0.91)));
+background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(191,191,191,0.96) 46%, rgba(76,82,76,0.91) 100%);
+background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(191,191,191,0.96) 46%, rgba(76,82,76,0.91) 100%);
+background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(191,191,191,0.96) 46%, rgba(76,82,76,0.91) 100%);
+background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(191,191,191,0.96) 46%, rgba(76,82,76,0.91) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#4c524c', GradientType=0 );
+color:#03514b;
+font-family: "Ubuntu";
+font-size: 12px;
+
+    a{
+        color:#03514b;
+        font-size: 16px;
+    }
+}
+.firma{
+    font-family: "Caveat";
+    font-size: 14px;
+    background: #000000;
+    color:#ffffff;
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 60px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+  overflow: hidden;
+  width: 48px;
+  height: 48px;
+  border: none;
+  text-indent: 100%;
+  background: url(../img/top_mover.png) no-repeat 0px 0px;
+}
+
+img{
+    width: 100%;
+}
+.padding{
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+.mycontainer{
+ background-image: url(../img/fondoss.png);
+ -webkit-background-size: 100% 100%;           /* Safari 3.0 */
+ -moz-background-size: 100% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+ -o-background-size: 100% 100%;           /* Opera 9.5 */
+ background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+ -moz-border-image: url(../img/fondoss.png) 0;    /* Gecko 1.9.1 (Firefox 3.5) */
+ opacity: 0.65;   
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+
+.historia{
+    background-color: rgba(7, 195, 10, 0.3);
+}
+.desplazar{
+    margin-top: 250px;
+    margin-bottom: 250px;
+
+    span {
+        font-size: 50px;
+        color: #fff;
+    }
+
+}
+.linkface{
+       span {
+            color:rgba(34, 123, 224, 0.85);
+            font-size:30px;
+       }   
+       color:rgba(49, 99, 156, 0.9); 
+}
+.mymodal{
+     background:rgba(27, 255, 3, 0.1) none repeat scroll 0% 0%;
+     .modal-header span{
+        color:white;
+        font-size:40px;
+        opacity: 0.65;
+     
+     }   
+}
+.fondoturismo{
+    //background: rgba(9, 251, 251, 0.08) none repeat scroll 0% 0%;
+   background: rgba(255,255,255,0.3);
+background: -moz-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(102,204,235,0.65) 50%, rgba(252,254,255,1) 99%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.3)), color-stop(50%, rgba(102,204,235,0.65)), color-stop(99%, rgba(252,254,255,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(102,204,235,0.65) 50%, rgba(252,254,255,1) 99%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(102,204,235,0.65) 50%, rgba(252,254,255,1) 99%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(102,204,235,0.65) 50%, rgba(252,254,255,1) 99%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%, rgba(102,204,235,0.65) 50%, rgba(252,254,255,1) 99%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+    img{
+        border-radius: 15px;
+    }
+}
+.fondogaleria{
+    background: rgba(60, 135, 200, 0.64) none repeat scroll 0% 0%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.panel{
+    font-family: "ubuntu";
+    font-weight:bold;
+     a{
+        color:#03514b;
+        font-size: 18px;
+    }
+
+    background-color: transparent;
+}
+.dropdown-menu .divider{
+height: 2px;
+margin: 9px 0;
+overflow: hidden;
+background-color: #f5f5f5;
+}
+/*------- para distintos tamaños de dispositivos----*/
+@media (min-width:1200px){
+	.myframe{
+            width:800px; 
+            height:700px;
+            border-radius: 10px;
+    }
+}
+@media (min-width:768px) and (max-width:979px){
+	.myframe{
+            width:700px; 
+            height:700px;
+            border-radius: 10px;
+    }
+       .dropdown-menu .divider{
+height: 2px;
+margin: 9px 0;
+overflow: hidden;
+background-color: #f5f5f5;
+}
+}
+@media (max-width:768px) {
+	.myframe{
+            width:450px; 
+            height:450px;
+            border-radius: 10px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+        color:#fff;
+    }
+   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{
+    color:#05fc10;
+    background-color: transparent;
+   }
+
+
+}
+@media (max-width:480px) {
+	.myframe{
+            width: 300px;
+            height: 350px;
+            border-radius: 10px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+        color:#fff;
+    }
+   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{
+    color:#05fc10;
+    background-color: transparent;
+   }
+   .dropdown-menu .divider{
+        height: 2px;
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #f5f5f5;
+    }
+}
+/*-------------------------------*/

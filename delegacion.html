@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="author" content="Mirna Peña">
+   
+    <title>Mutual | Delegaciones</title>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+   
+
+      <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel.css">
+   
+    <!--para los iconos-->
+    <link rel="stylesheet" type="text/css" href="fonts-moon/style.css">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body style="padding-bottom: 0px;">
+            <div class="navbar-wrapper">
+        <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <img class="logo" src="img/logo.ico">
+              </div><!--navbar-header-->
+              <div id="navbar" class="navbar-collapse collapse menu">
+                  <ul  class="nav navbar-nav">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSTITUCIONAL<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" data-toggle="modal" data-target="#myModalinfo">QUIENES SOMOS?</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#myModalinfo1">QUIENES SE PUEDEN ASOCIAR</a></li>        
+                        </ul>
+                    </li>
+                  
+                    <li><a class="scroll" href="#contactenos" style="margin-right:360px;">CONTACTENOS</a></li>
+                  
+                  </ul>
+                  <a class="btn btn-primary login" href="#" role="button">Iniciar sesión</a>
+                  <a class="btn btn-primary webmail" href="#" role="button">Correo</a>
+                <!--script para que aparezca el boton subir-->
+                <script>
+                 $("span.menu").click(function(){
+                     $("ul.res").slideToggle(500, function(){
+                     });
+                 });
+                </script>
+              </div>
+          </div><!--container-->
+        </nav><!--navbar navbar-inverse-->
+      </div><!--container-->
+    </div>
+           
+   
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 0px;">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="img/puzzle.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+               <h1>Mutual</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error enim, consequatur, harum, deleniti suscipit, sint minus perferendis ut porro officiis nisi ipsum reiciendis excepturi eaque obcaecati voluptatibus debitis eius quam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="#" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+               <h1>Visite nuestra página en Facebook</h1>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eius, eveniet, dicta est sed facilis dolorem nam saepe perspiciatis praesentium, soluta voluptatem vero hic repellat rem voluptas numquam voluptates. Dolor? </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">visitar</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="#" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Acercate a cualquiera de nuestras delegaciones</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione similique accusantium amet error placeat, quis quia possimus iure, tempora eos non quisquam sequi sunt aliquid nam itaque porro illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut tempora facere quo? Nemo, perferendis praesentium, repellendus ipsa, corporis deleniti sint modi similique culpa debitis esse aliquam atque perspiciatis! Nobis, debitis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       <a class="left carousel-control desplazar" href="#myCarousel" role="button" data-slide="prev">
+        <span class="icon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control desplazar" href="#myCarousel" role="button" data-slide="next">
+         <span class="icon-chevron-right"></span>
+         <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+    
+    <div class="container-fluid mycontainer padding">
+      <div class="row-fluid"><!--usar tabs -->
+        <div class="col-md-3 panel" style="margin-top: 60px;">
+          <ul class="nav nav-pills nav-stacked">            
+            <li><a  onclick="items(3)"  href="#mapa">Centenario</a></li>
+            <li><a  onclick="items(4)"  href="#mapa">Chos Malal</a></li>
+            <li><a  onclick="items(6)"  href="#mapa">Junin de los Andes</a></li>           
+            <li><a  onclick="items(9)"  href="#mapa">Neuquén</a></li>                   
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
+        <div  id="mapa" class="col-md-8"> <!-- van los mapas y ubicacion google maps-->
+        
+          <strong><h2 class="text-center" style="color:#000;"> Nuestra ubicación</h2></strong><br> 
+
+          
+          <div id="item_3" style="display:none;"> 
+              <h3>Centenario</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam autem sapiente debitis modi alias quo voluptas eum officiis id excepturi deleniti, porro vel incidunt saepe quidem ea dicta praesentium, rem.</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8791.184546915343!2d-68.1286539800927!3d-38.828954341364096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a4ac05769b5ab%3A0x559ffc8e037164bf!2sCentenario%2C+Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1489678255165" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br>
+              <button class="btn btn-primary" onclick="ocultar(3)" >cerrar</button>
+          </div>
+          <div id="item_4" style="display:none;"> 
+              <h3>Chos Malal</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae expedita aspernatur minima illum fuga doloremque totam magnam rem pariatur laborum, fugiat, numquam quia reprehenderit ipsa iure possimus ipsam sed eaque.</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12682.661498019803!2d-70.28154969552848!3d-37.37409400252097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967272238fa5a5e5%3A0x1105c48e909b356d!2sChos+Malal%2C+Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1489678368168" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <br>
+              <button class="btn btn-primary" onclick="ocultar(4)" >cerrar</button>
+          </div>
+          <div id="item_6" style="display:none;"> 
+              <h3>Junin de los Andes</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi aliquid quaerat culpa deleniti iure facilis suscipit eveniet laudantium! Facilis non inventore animi neque fugit consequatur, quasi harum cum, ex iste!</p>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7274.9707880429705!2d-71.08023663544088!3d-39.94701655522029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9611995843650b6d%3A0xe36817136edf7d39!2sJun%C3%ADn+de+los+Andes%2C+Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1489679393376" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br>           
+              <button class="btn btn-primary" onclick="ocultar(6)" >cerrar</button>
+          </div>
+          <div id="item_9" style="display:none;"> 
+                <h3>Neuquén</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quia repellat nobis, ipsa eligendi quos sequi aut obcaecati nisi earum suscipit, consequuntur quaerat ea autem sint vel totam aliquam. Eum.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10435.954346748775!2d-68.07815285865753!3d-38.95533082355394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33ba35eb8e35%3A0x6220acb810e3e2f5!2zTmV1cXXDqW4!5e0!3m2!1ses!2sar!4v1489679616171" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <br>
+                <button class="btn  btn-primary" onclick="ocultar(9)" >cerrar</button>                 
+          </div>
+          
+        </div>
+        </div>
+      </div><!--container-->
+
+
+      <!-- Modal EnConstruccion-->
+<div class="modal fade" id="myModalEnConstruccion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Más detalles</h4>
+      </div>
+      <div class="modal-body" align="center">
+         <img src="img/construccion.png"  width="280" height="280">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+  <!-- Modal INFO-->
+<div class="modal fade" id="myModalinfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+         <span class=" close icon-circle-with-cross" data-dismiss="modal" aria-hidden="close"></span>
+      </div>
+      <div class="modal-body">
+          <div class="span12">
+                      <h1>Quiénes somos?</h1><br>
+                      <p align="justify">
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, assumenda consequatur facere quasi asperiores. Illo, necessitatibus adipisci voluptatibus obcaecati repellat quidem, quae debitis recusandae hic dolores eaque excepturi dolore fugiat!.
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ipsam quisquam eveniet quidem eum fugit quam enim mollitia molestiae voluptas delectus quos, cum quo minima nesciunt natus similique illo expedita.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod assumenda expedita deserunt voluptatem culpa quo ipsa rerum necessitatibus illum porro dolorem eligendi unde fuga quaerat a modi illo, esse vero?
+                      </p>
+                      <p align="justify">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maiores quibusdam aliquid veniam voluptate quo minima, aut cumque voluptatibus, ipsum eum soluta nostrum nisi similique tempora odio nulla iure deleniti!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste asperiores repellendus, corporis at pariatur quaerat error. Recusandae reiciendis, quos aliquam quidem pariatur vero autem voluptatem, debitis dolorum animi fugiat amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptas commodi enim ducimus porro incidunt ipsum voluptatibus maxime cupiditate dolor facilis esse, quas, qui dicta, blanditiis nihil, placeat laudantium aspernatur.
+                      </p>
+                      <p align="justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora aspernatur suscipit perspiciatis, fugit incidunt culpa. Deleniti, magni consectetur error alias, laudantium adipisci at quaerat magnam mollitia illo fuga, saepe dicta.
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt est doloribus a ipsum perferendis commodi, veniam, in ullam. Nam laborum iusto ea labore veritatis debitis, dolorum illo molestiae fuga distinctio.
+                      </p>
+                      <p align="justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, sit vitae alias fugiat esse beatae ipsam libero. Expedita labore accusantium dolor laboriosam. Enim mollitia dignissimos saepe eos nisi alias at!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem mollitia beatae, perferendis cupiditate! Similique fugiat quaerat voluptate officiis, voluptatibus repellendus quibusdam optio, quod obcaecati alias natus, praesentium eligendi placeat tempora.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quo quis non totam vel et ipsum error ipsam corporis aspernatur rem delectus sint at beatae placeat libero ipsa, inventore ullam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta rerum illum commodi porro distinctio voluptates nihil corporis, laudantium impedit alias. Cum obcaecati sunt omnis. Neque blanditiis similique quaerat optio officia.
+                      </p> <br>
+                  </div>       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Modal asociacion-->
+<div class="modal fade" id="myModalinfo1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class=" close icon-circle-with-cross" data-dismiss="modal" aria-hidden="close"></span>
+      </div>
+      <div class="modal-body">
+            <div class="container-fluid">
+               <div class="col-lg-6" align="center">
+                <h3>¿Quiénes pueden asociarse?</h3><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In saepe minus, at adipisci, dolorem quibusdam. Aliquam error enim velit ratione, repellendus obcaecati vitae rerum, ipsum provident, magnam ducimus nemo. Tenetur!</p><br>
+            </div><!-- /.col-lg-6 -->
+            <div class="col-lg-6" align="center">                  
+                <h3>¿Qué requisitos necesito para afiliarme?</h3><br>
+                 <ul class="text-left">
+                      <p>&nbsp;<span class="icon-check"></span>&nbsp;Item1</p>
+                      <p>&nbsp;<span class="icon-check"></span>&nbsp;Item2</p>
+                      <p>&nbsp;<span class="icon-check"></span>&nbsp;Item3</p>                    
+                      <p>&nbsp;<span class="icon-check"></span>&nbsp;...</p>
+                      <p>&nbsp;<span class="icon-check"></span>&nbsp;ItemN</p>
+                  </ul>
+            </div><!-- /.col-lg-6 -->
+            </div>
+           
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--=================COMERCIOS===============-->
+<!--MODAL TARJETA-->
+<div class="modal fade" id="myModalTarjeta" >
+    <div class="mymodal-dialog" role="document">
+      <div class="mymodal-content">
+        <div class="modal-header">
+          <span class="close icon-circle-with-cross" data-dismiss="modal" aria-hidden="close">
+          </span>
+        </div>
+        <div class="modal-body">
+          <img src="img/tarjeta.png" >
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!--MODAL ALUMINE-->
+<div class="modal fade" id="myModalAlumine" >
+    <div class="mymodal-dialog" role="document">
+      <div class="mymodal-content">
+        <div class="modal-header">
+          <span class="close icon-circle-with-cross" data-dismiss="modal" aria-hidden="close">
+          </span>
+        </div>
+        <div class="modal-body">
+          <img src="img/comercios/comercio_alumine.png" >
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <!--=====================CONTACTENOS========================================-->
+
+   
+        <div id="contactenos" class="container-fluid padding myfooter">
+            <div class="container">
+                <div class="col-md-4" >
+                      <h3>Ir a</h3><br>
+                      <strong>
+                        <p><span class="icon-triangle-right" ></span><a  href="index.html">Página principal</a></p>
+                      </strong>                     
+                     
+                </div>
+       
+                <div class="col-md-8">
+                     <h3 class="text-center">CONTACTENOS</h3><br>
+                     <div class="row-fluid">
+                        <strong>
+                          <p>&nbsp;&nbsp;&nbsp;&nbsp;Calle xxx - Neuquén , Argentina</p>
+                        </strong>
+                        <div class="col-md-4">
+                          <strong>
+                            <p><span class="icon-phone" style="color:rgba(4, 190, 190, 0.76); font-size:30px;"></span>123456789</p>
+                          </strong>
+                        </div>
+                    </div>
+                      <div class="col-md-4">
+                        <div class="btn-group">
+                            <a  href="#" title="Informes"><span class="icon-mail" style="color:rgba(4, 190, 190, 0.76); font-size:30px;"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a  href="#" title="fanpage"><span class="icon-facebook" title="fanpage-face" style="color:rgba(4, 190, 190, 0.76); font-size:30px;"></span></a>
+                        </div>
+                      </div>                        
+                </div><!--col-md-8-->
+            </div><!--container-->
+        </div>     
+
+  <footer><p class="text-center firma" style="margin-bottom:0px;">&copy; Diseñado por Mirna Peña lml  &middot;</p></footer> 
+
+       
+ 
+ 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+   <if lt IE9>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    </endif>
+    <script type="text/javascript">  
+        $(document).ready(function(){ 
+        $('.alternar-respuesta').on('click',function(e){
+            $(this).parent().next().toggle();
+            e.preventDefault();
+        });
+       /* $('#alternar-todo').on('click',function(e){
+            $('.respuesta').toggle('slow');
+            e.preventDefault();
+        });*/
+    });
+    </script>
+
+    <script type="text/javascript">
+
+   function items(id){
+      var obj = document.getElementById('item_' + id)
+      if(obj.style.display == 'none') obj.style.display = 'block'
+      else obj.style.display = 'none'
+   }
+    function ocultar(id){
+      var obj = document.getElementById('item_' + id)
+      if(obj.style.display == 'block') obj.style.display = 'none'
+      else obj.style.display = 'block'
+   }
+  
+
+    </script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+      });
+    </script>
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>  
+        <script type="text/javascript">
+          $(function() {
+            $(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+          });
+        </script>
+    <script type="text/javascript">
+                    $(document).ready(function() {
+                      /*
+                      var defaults = {
+                          containerID: 'toTop', // fading element id
+                        containerHoverID: 'toTopHover', // fading element hover id
+                        scrollSpeed: 1200,
+                        easingType: 'linear' 
+                      };
+                      */
+                      
+                     $().UItoTop({ easingType: 'easeOutQuart' });
+                      
+                    });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </spanºa>
+  </body>
+
+</html>
